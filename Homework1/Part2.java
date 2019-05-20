@@ -1,3 +1,11 @@
+/*
+Author: Jamie Irby
+Uber Career Prep Assignment 1 Part 2
+Methods to implement: isStringPermutation(String s1, String s2) and 
+	pairsThatEqualSum(int[] inputArr, int targetSum)
+*/
+
+
 import java.util.ArrayList;
 import java.util.List;
 
