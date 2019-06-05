@@ -14,14 +14,28 @@ public class Stack<E> {
 	}
 	
 	public E pop() {
+		if(this.stack.size() == 0) {
+			return null;
+		}
 		return this.stack.remove(0);
 	}
 	
 	public E top() {
+		if(this.stack.size()==0) {
+			return null;
+		}
 		return this.stack.get(0);
 	}
 	
 	public boolean isEmpty() {
 		return this.stack.size()==0;
+	}
+	
+	public int size() {
+		return this.stack.size();
+	}
+	
+	public E min() {//???
+		return null;
 	}
 }
